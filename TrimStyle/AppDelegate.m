@@ -16,7 +16,13 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  // Insert code here to initialize your application
+  NSPasteboard*  pasteboard  = [NSPasteboard generalPasteboard];
+  NSString *tempString = [pasteboard  stringForType:NSPasteboardTypeString];
+  
+  [pasteboard declareTypes:[NSArray arrayWithObject:NSStringPboardType] owner:nil];
+  [pasteboard setString:tempString forType:NSStringPboardType];
+  
+  [NSApp terminate:self];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

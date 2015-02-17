@@ -12,6 +12,7 @@
 		CE5ABF4919C8F81D002E975F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5ABF4819C8F81D002E975F /* Images.xcassets */; };
 		CE5ABF4C19C8F81D002E975F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5ABF4A19C8F81D002E975F /* MainMenu.xib */; };
 		CE5ABF5819C8F81D002E975F /* TrimStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5ABF5719C8F81D002E975F /* TrimStyleTests.m */; };
+		CECAD94519CCD4C1006EEFD1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CECAD94419CCD4C1006EEFD1 /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		CE5ABF5119C8F81D002E975F /* TrimStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrimStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5ABF5619C8F81D002E975F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5ABF5719C8F81D002E975F /* TrimStyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrimStyleTests.m; sourceTree = "<group>"; };
+		CECAD94419CCD4C1006EEFD1 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		CE5ABF4119C8F81D002E975F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CECAD94419CCD4C1006EEFD1 /* Credits.rtf */,
 				CE5ABF4219C8F81D002E975F /* Info.plist */,
 				CE5ABF4319C8F81D002E975F /* main.m */,
 			);
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5ABF4919C8F81D002E975F /* Images.xcassets in Resources */,
+				CECAD94519CCD4C1006EEFD1 /* Credits.rtf in Resources */,
 				CE5ABF4C19C8F81D002E975F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -315,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -328,6 +332,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TrimStyle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -339,6 +344,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TrimStyle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -358,6 +364,7 @@
 				);
 				INFOPLIST_FILE = TrimStyleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrimStyle.app/Contents/MacOS/TrimStyle";
 			};
@@ -374,6 +381,7 @@
 				);
 				INFOPLIST_FILE = TrimStyleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrimStyle.app/Contents/MacOS/TrimStyle";
 			};
@@ -398,6 +406,7 @@
 				CE5ABF5D19C8F81D002E975F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5ABF5E19C8F81D002E975F /* Build configuration list for PBXNativeTarget "TrimStyleTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +415,7 @@
 				CE5ABF6019C8F81D002E975F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
